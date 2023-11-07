@@ -59,3 +59,4 @@ label_encoder = LabelEncoder()
 df['Gender'] = label_encoder.fit_transform(df['Gender'])
 
 df['Geography'] = label_encoder.fit_transform(df['Geography'])
+*/
