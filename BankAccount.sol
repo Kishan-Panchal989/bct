@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.18;
 
 contract BankAccount {
     address private owner;
@@ -48,3 +48,14 @@ contract BankAccount {
         emit Transfer(msg.sender, to, amount);
     }
 }
+/*from sklearn.neural_network import MLPClassifier
+
+ann=MLPClassifier(hidden_layer_sizes=(100,100,100),max_iter=50,random_state=20,solver='adam',activation='relu')
+
+from sklearn.preprocessing import LabelEncoder
+
+# Initialize the LabelEncoder
+label_encoder = LabelEncoder()
+df['Gender'] = label_encoder.fit_transform(df['Gender'])
+
+df['Geography'] = label_encoder.fit_transform(df['Geography'])
